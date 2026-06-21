@@ -4,22 +4,24 @@
 #### Fluxo normal:
 1 - <ins>Professor acessa o sistema.</ins>   
 2 - Professor cria sala (matéria, sala, turma).  
-3 - Professor pede email de Aluno.
-4 - Aluno manda email para Professor.
-3 - Professor define permissões (moderador ou leitor).  
-4 - Professor define visibilidade (público ou privado).  
-5 - Professor publica a sala e manda convite para Aluno.  
-6 - Aluno acessa a sala via link e aceita convite do Professor.  
-7 - Professor cria post (atividades, testes, provas, simulados, eventos).  
-8 - Professor define permissões adicionais (entregas atrasadas).  
-9 - Professor define data/hora do post.  
-10 - Professor publica post.  
-11 - Aluno entrega atividade no prazo estipulado.  
-12 - Professor avalia e registra atividade.  
-13 - Aluno envia mensagens (privadas ou públicas) para Professor (relatar problemas, feedback).  
+3 - Professor pede email de Aluno.  
+4 - Aluno manda email para Professor.  
+5 - Professor define permissões (moderador ou leitor).  
+6 - Professor define visibilidade (público ou privado).  
+7 - Professor publica a sala.  
+8 - Professor manda convite para Aluno.  
+9 - Aluno acessa a sala.  
+10 - Aluno aceita convite de Professor.
+11 - Professor cria post (atividades, testes, provas, simulados, eventos).  
+12 - Professor define permissões adicionais (entregas atrasadas).  
+13 - Professor define data/hora do post.  
+14 - Professor publica post.  
+15 - Aluno entrega atividade no prazo estipulado.  
+16 - Professor avalia e registra atividade.  
+17 - Aluno envia mensagens (públicas ou privadas) para Professor (relatar problemas, feedback).  
 
 #### Extensões:
-3a: Se não definir permissões, sistema assume modo leitor.  
-4a: Se não definir visibilidade, sistema assume modo público.  
-7a: Se aluno não conseguir acessar, sala pode estar privada sem nome incluído.  
-11a: Se aluno não entregar no prazo, sistema permite entrega atrasada se professor habilitou em permissões adicionais.  
+5a: Se não definir permissões, sistema assume modo leitor.  
+6a: Se não definir visibilidade, sistema assume modo público.  
+9a: Se aluno não conseguir acessar, sala pode estar privada sem nome incluído.  
+12a: Se aluno não entregar no prazo, sistema permite entrega atrasada se professor habilitou em permissões adicionais.  
