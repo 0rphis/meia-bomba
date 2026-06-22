@@ -14,7 +14,7 @@ As plataformas educacionais atuais apresentam algumas limitações que impactam 
 * Ausência de papéis intermediários, como monitores.
 * Falta de critérios personalizados para avaliação de trabalhos em grupo.
 
-# Requisitos Funcionais
+      # Requisitos Funcionais
 
 ## RF01 - Autenticação
 
@@ -67,9 +67,53 @@ O sistema deve permitir que alunos avaliem apresentações e trabalhos realizado
 
 Ao final da avaliação, o sistema deve calcular automaticamente a média das notas atribuídas pelos alunos e combiná-la com a nota do professor, utilizando pesos configuráveis para compor a nota final da atividade.
 
+## RF12 - Chat ao Vivo
 
+O sistema deve permitir a comunicação em tempo real entre alunos, professores e monitores por meio de um chat ao vivo integrado às turmas e grupos de estudo.
 
-# Funcionalidades Futuras
+## RF13 - Chamadas de Vídeo
+
+O sistema deve permitir a realização de chamadas de vídeo entre os participantes de uma turma ou grupo de estudo, possibilitando reuniões, aulas e apresentações remotas.
+
+## RF14 - Compartilhamento durante Chamadas
+
+O sistema deve permitir que usuários compartilhem links, documentos e materiais de apoio durante as chamadas de vídeo.
+
+## RF15 - Gerenciamento de Sessões de Vídeo
+
+O sistema deve permitir que professores criem, iniciem, encerrem e gerenciem sessões de videoconferência vinculadas às suas turmas.
+
+    # Requisitos Não Funcionais
+
+## RNF01 - Segurança
+
+O sistema deve garantir autenticação segura por meio de contas Google, protegendo os dados dos usuários contra acessos não autorizados.
+
+## RNF02 - Escalabilidade
+
+O sistema deve suportar o crescimento gradual do número de usuários e turmas sem perda significativa de desempenho ou necessidade de reestruturação completa da arquitetura.
+
+## RNF03 - Integração
+
+O sistema deve ser desenvolvido de forma a permitir futuras integrações com sistemas acadêmicos, serviços externos e plataformas institucionais.
+
+## RNF04 - Usabilidade
+
+O sistema deve apresentar uma interface intuitiva, responsiva e organizada, permitindo que alunos e professores utilizem suas funcionalidades com facilidade.
+
+## RNF05 - Disponibilidade
+
+O sistema deve permanecer disponível para acesso contínuo durante os períodos letivos, garantindo alta disponibilidade e minimizando interrupções no serviço.
+
+## RNF06 - Desempenho
+
+O sistema deve responder às principais operações do usuário em até 3 segundos em condições normais de utilização.
+
+## RNF07 - Manutenibilidade
+
+O sistema deve possuir uma arquitetura que facilite correções, atualizações e inclusão de novas funcionalidades ao longo do tempo.
+
+    # Funcionalidades Futuras
 
 * Integração completa com sistemas de escolas e universidades.
 * Controle de presença automatizado.

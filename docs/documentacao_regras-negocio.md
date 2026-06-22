@@ -59,34 +59,3 @@ Apenas professores e administradores poderão arquivar ou reativar turmas.
 ## RN15 - Moderação de Conteúdo
 
 Professores poderão editar ou remover conteúdos publicados em suas respectivas turmas.
-
-    # Requisitos Não Funcionais
-
-## RNF01 - Segurança
-
-O sistema deve garantir autenticação segura por meio de contas Google, protegendo os dados dos usuários contra acessos não autorizados.
-
-## RNF02 - Escalabilidade
-
-O sistema deve suportar o crescimento gradual do número de usuários e turmas sem perda significativa de desempenho ou necessidade de reestruturação completa da arquitetura.
-
-## RNF03 - Integração
-
-O sistema deve ser desenvolvido de forma a permitir futuras integrações com sistemas acadêmicos, serviços externos e plataformas institucionais.
-
-## RNF04 - Usabilidade
-
-O sistema deve apresentar uma interface intuitiva, responsiva e organizada, permitindo que alunos e professores utilizem suas funcionalidades com facilidade.
-
-## RNF05 - Disponibilidade
-
-O sistema deve permanecer disponível para acesso contínuo durante os períodos letivos, garantindo alta disponibilidade e minimizando interrupções no serviço.
-
-## RNF06 - Desempenho
-
-O sistema deve responder às principais operações do usuário em até 3 segundos em condições normais de utilização.
-
-## RNF07 - Manutenibilidade
-
-O sistema deve possuir uma arquitetura que facilite correções, atualizações e inclusão de novas funcionalidades ao longo do tempo.
-
