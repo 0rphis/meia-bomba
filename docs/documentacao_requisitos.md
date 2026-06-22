@@ -67,57 +67,7 @@ O sistema deve permitir que alunos avaliem apresentações e trabalhos realizado
 
 Ao final da avaliação, o sistema deve calcular automaticamente a média das notas atribuídas pelos alunos e combiná-la com a nota do professor, utilizando pesos configuráveis para compor a nota final da atividade.
 
-# Regras de Negócio
 
-## RN01
-
-Apenas professores podem publicar atividades acadêmicas.
-
-## RN02
-
-Alunos podem criar grupos de conversa e estudo.
-
-## RN03
-
-Toda publicação de conteúdo deve possuir uma classificação obrigatória.
-
-## RN04
-
-O sistema deve permitir comunicação entre alunos e professores por mensagens internas.
-
-## RN05
-
-Monitores possuem permissões limitadas definidas pelo professor ou administrador.
-
-## RN06
-
-Avaliações em grupo devem possuir critérios previamente definidos pelo professor.
-
-## RN07
-
-O professor poderá definir se uma atividade utilizará avaliação colaborativa, bem como os pesos aplicados às notas dos alunos e à nota do professor na composição da nota final.
-
-# Requisitos Não Funcionais
-
-## RNF01 - Segurança
-
-O sistema deve garantir autenticação segura e proteção dos dados dos usuários.
-
-## RNF02 - Escalabilidade
-
-O sistema deve suportar crescimento gradual de usuários sem perda significativa de desempenho.
-
-## RNF03 - Integração
-
-O sistema deve permitir futuras integrações com sistemas acadêmicos de escolas e universidades.
-
-## RNF04 - Usabilidade
-
-O sistema deve apresentar interface intuitiva e organizada para alunos e professores.
-
-## RNF05 - Disponibilidade
-
-O sistema deve estar disponível para acesso contínuo durante os períodos letivos.
 
 # Funcionalidades Futuras
 
